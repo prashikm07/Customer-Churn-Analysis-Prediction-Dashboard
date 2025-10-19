@@ -1,0 +1,23 @@
+customer-churn-analytics/
+│
+├── data/
+│   └── raw/         # Original datasets
+│   └── processed/   # Cleaned & transformed data
+│
+├── sql/
+│   └── queries.sql  # All SQL queries for data extraction & transformation
+│
+├── notebooks/
+│   └── EDA.ipynb    # Exploratory Data Analysis
+│   └── model.ipynb  # Churn prediction model
+│
+├── app/
+│   └── dashboard.py # Streamlit or Dash app
+│
+├── jira_board/      
+│   └── screenshots/ # Optional: screenshots of your Jira board (if sharing publicly)
+│   └── export.csv   # Jira tasks/issues (useful for documentation)
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
